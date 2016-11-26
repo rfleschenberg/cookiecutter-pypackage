@@ -1,0 +1,9 @@
+{
+    "project_name": "My Project",
+    "distribution_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "package_name": "{{ cookiecutter.distribution_name.replace('-', '_') }}",
+    "description": "",
+    "github_username": "rfleschenberg",
+    "author_name": "René Fleschenberg",
+    "author_email": "rene@fleschenberg.net"
+}
